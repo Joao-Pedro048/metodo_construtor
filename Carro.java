@@ -14,6 +14,11 @@ public class Carro{
         this.aro=aro;
         this.modelo=modelo;
     }
+    public Carro(int aro, String modelo,double valorCarr ){
+        this.aro=aro;
+        this.modelo=modelo;
+        this.valorCarro=valorCarro;
+    }
     public Carro(int aro, String modelo,double valorCarro, String cor ){
         this.aro=aro;
         this.modelo=modelo;
